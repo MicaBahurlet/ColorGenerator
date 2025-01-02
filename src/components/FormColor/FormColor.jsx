@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Values from 'values.js';
-import { FormWrapper, StyledForm, StyledInput, StyledButton, ErrorMessage } from './StyleFormColor';
+import { FormWrapper, StyledForm, StyledInput, StyledButton, ErrorMessage,InputGroup  } from './StyleFormColor';
 
 const FormColor = ({ setList }) => {
     const [color, setColor] = useState('blue');
@@ -24,12 +24,14 @@ const FormColor = ({ setList }) => {
             <StyledForm onSubmit={handleGenerator}>
                 <div>
                     <h1>Generador de Colores</h1>
-                    <StyledInput
-                        type="text"
-                        placeholder="#fff"
-                        onChange={(e) => setColor(e.target.value)}
-                    />
-                    <StyledButton type="submit">Generar</StyledButton>
+                    <InputGroup >
+                        <StyledInput
+                            type="text"
+                            placeholder="#fff"
+                            onChange={(e) => setColor(e.target.value)}
+                        />
+                        <StyledButton type="submit">Generar</StyledButton>
+                    </InputGroup>
                 </div>
                 {error && <ErrorMessage>No existe ese color</ErrorMessage>}
             </StyledForm>
