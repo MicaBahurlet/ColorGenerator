@@ -55,10 +55,10 @@ const MyNavbar = () => {
 
         <NavLinks expanded={expanded}>
           <MenuItem>
-            <Link to="/colores">Colores</Link>
+            <Link to="/">Inicio</Link>
           </MenuItem>
           <MenuItem>
-            <Link to="/como-usar">Cómo Usar</Link>
+            <Link to="/como">Cómo Usar</Link>
           </MenuItem>
         </NavLinks>
       </NavWrapper>
