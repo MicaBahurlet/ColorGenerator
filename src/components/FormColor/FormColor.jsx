@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import Values from 'values.js';
-import { FormWrapper, StyledForm, StyledInput, StyledButton, ErrorMessage,InputGroup  } from './StyleFormColor';
+import { FormWrapper, StyledForm, StyledInput, StyledButton, ErrorMessage,InputGroup,Title  } from './StyleFormColor';
 const FormColor = ({ setList, onGenerate }) => {
     const [color, setColor] = useState('blue');
     const [error, setError] = useState(false);
@@ -25,7 +25,7 @@ const FormColor = ({ setList, onGenerate }) => {
       <FormWrapper>
         <StyledForm onSubmit={handleGenerator}>
           <div>
-            <h1>Generador de Colores</h1>
+            <Title>Generador de Colores</Title>
             <InputGroup>
               <StyledInput
                 type="text"

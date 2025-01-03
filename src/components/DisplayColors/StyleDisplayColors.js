@@ -10,5 +10,6 @@ export const ColorsContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    /* margin-bottom: 3rem; */
     /* background-color: whitesmoke; */
 `;

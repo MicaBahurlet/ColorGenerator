@@ -1,22 +1,24 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyles = createGlobalStyle`
-    h1 {
-        text-align: center;
-        font-size: 1.5rem;
-        color: #008080; 
-        margin-bottom: 1rem;
-        font-family: 'Montserrat', sans-serif;
-    }
+export const Title = styled.h1`
+    text-align: center;
+    font-size: 3rem;
+    /* color: #008080;  */
+    color: black;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 `;
 
 export const FormWrapper = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 50vh;
+    /* min-height: 50vh; */
     /* background-color: whitesmoke; */
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1270px;
 `;
 
 export const StyledForm = styled.form`
@@ -24,11 +26,6 @@ export const StyledForm = styled.form`
     flex-direction: column;
     gap: 1rem;
     padding: 2rem;
-    /* background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px; */
 `;
 
 export const StyledInput = styled.input`

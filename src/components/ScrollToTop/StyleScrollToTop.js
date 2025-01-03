@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ScrollButton = styled.button`
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 250px;
+  right: 50px;
   background-color: #008080;
   color: white;
   border: none;
