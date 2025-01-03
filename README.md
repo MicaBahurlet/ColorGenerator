@@ -1,8 +1,15 @@
-# React + Vite
+# Color Generator
+v 1.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a web app, allows through a code or word find colors that match or are in the range of colors. 
 
-Currently, two official plugins are available:
+<p align="start">
+<img width="300px"  src="https://skillicons.dev/icons?i=react,styledcomponents,nodejs,git,github,perline=10"  />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr>
+
+
+<h3>&#128640;  Main languages and Framework to development:</h3>
+- React.js
+

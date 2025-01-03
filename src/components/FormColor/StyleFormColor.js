@@ -4,7 +4,7 @@ export const GlobalStyles = createGlobalStyle`
     h1 {
         text-align: center;
         font-size: 1.5rem;
-        color: #008080; /* Verde agua vibrante */
+        color: #008080; 
         margin-bottom: 1rem;
         font-family: 'Montserrat', sans-serif;
     }
@@ -14,8 +14,8 @@ export const FormWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: whitesmoke;
+    min-height: 50vh;
+    /* background-color: whitesmoke; */
     font-family: 'Montserrat', sans-serif;
 `;
 
@@ -56,6 +56,7 @@ export const StyledButton = styled.button`
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
 
     &:hover {
         background-color: #005c5c;
