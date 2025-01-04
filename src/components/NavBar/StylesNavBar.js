@@ -84,6 +84,8 @@ export const CustomNavbar = styled.nav`
   align-items: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+
 `;
 
 // Contenedor de los elementos de navegación
