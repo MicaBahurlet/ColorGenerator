@@ -59,6 +59,7 @@ export const StyledButton = styled.button`
         background-color: #005c5c;
     }
 `;
+
 export const InputGroup = styled.div`
     display: flex;
     gap: 1rem;
@@ -73,3 +74,34 @@ export const ErrorMessage = styled.p`
     text-align: left;
     margin: 0;
 `;
+
+
+export const ClearButton = styled.button`
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #008080; /* Color del borde */
+    background-color: transparent;
+    border: 2px solid #008080; /* Mismo color que el botón "Generar" */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+
+    &:hover {
+        background-color: #e0f7f7;
+    }
+`;
+
+export const MessageContainer = styled.div`
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%; 
+`;
+
