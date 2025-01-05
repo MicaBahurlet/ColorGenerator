@@ -99,15 +99,15 @@ const InstructionsPage = () => {
   return (
     <>
       <Container>
-        <Title>¿Cómo Usar ColorGenerator?</Title>
+        <Title>Usar ColorGenerator es simple y ágil</Title>
         <Instructions>
           <InstructionItem>
-            <h3>1. Ingresá el nombre de un color en inglés o un código</h3>
-            <p>ColorGenerator te dará las combinaciones de esa gama de colores.</p>
+            <h3>1. Ingresá el nombre de un color en inglés o un código hexadecimal</h3>
+            <p>ColorGenerator te generará una paletas de colores derivadas del color que hayas seleccionado. La paleta de colores incluye los tonos más claros (tints) y más oscuros (shades).</p>
           </InstructionItem>
           <InstructionItem>
             <h3>2. Copia el código del color de tu preferencia</h3>
-            <p>Podés copiar el código del color que más te guste y usarlo en tus proyectos de la manera que gustes.</p>
+            <p>Seleccioná la tonalidad que más te guste y luego podes copiar el código del color que más te guste y usarlo en tus proyectos de la manera que gustes.</p>
           </InstructionItem>
         </Instructions>
 
