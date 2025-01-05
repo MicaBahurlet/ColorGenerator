@@ -34,6 +34,7 @@ export const MessageContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 15vh; //ver esta altura para el footer
   margin: 3rem auto;
   max-width: 1150px;
   padding: 2rem;

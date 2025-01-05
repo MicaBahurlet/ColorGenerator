@@ -80,9 +80,9 @@ export const ClearButton = styled.button`
     padding: 0.75rem 1rem;
     font-size: 1rem;
     font-weight: bold;
-    color: #008080; /* Color del borde */
+    color: #008080; 
     background-color: transparent;
-    border: 2px solid #008080; /* Mismo color que el botón "Generar" */
+    border: 2px solid #008080; 
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -103,5 +103,6 @@ export const MessageContainer = styled.div`
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 100%; 
+  height: 1000vh;
 `;
 
