@@ -13,6 +13,7 @@ export const FooterContainer = styled.footer`
   flex-wrap: wrap;
   /* box-sizing: border-box; */
   overflow-x: hidden; 
+
 `;
 
 export const FooterItem = styled.div`
