@@ -14,6 +14,11 @@ export const FooterContainer = styled.footer`
   /* box-sizing: border-box; */
   overflow-x: hidden; 
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
 `;
 
 export const FooterItem = styled.div`

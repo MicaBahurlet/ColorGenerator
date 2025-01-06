@@ -174,7 +174,7 @@
 
 import styled from 'styled-components';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { AiOutlineClose } from 'react-icons/ai'; // Ícono de cierre
+import { AiOutlineClose } from 'react-icons/ai'; 
 
 // Contenedor principal del navbar
 export const CustomNavbar = styled.nav`
@@ -209,35 +209,11 @@ export const Logo = styled.img`
   height: auto;
 `;
 
-// Links de navegación
-// export const NavLinks = styled.div`
-//   display: flex;
-//   gap: 2rem;
-
-//   @media (max-width: 768px) {
-//     flex-direction: column;
-//     position: absolute;
-//     top: 130px;
-//     right: 0;
-//     background-color: #008080;
-//     width: 90%; 
-//     max-width: 400px; 
-//     padding: 3rem 2rem;
-//     display: ${({ expanded }) => (expanded ? 'flex' : 'none')};
-//     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-//     border-radius: 0 0 10px 10px;
-//     transition: all 0.3s ease-in-out;
-
-//     /* Centrar menú en pantalla */
-//     left: 50%;
-//     transform: translateX(-50%);
-//   }
-// `;
 
 export const NavLinks = styled.div`
   display: flex;
   gap: 2rem;
-  z-index: 3; /* Encima del overlay */
+  z-index: 3; /* encima del overlay */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -303,6 +279,7 @@ export const CloseIcon = styled(AiOutlineClose)`
   font-size: 2rem;
   color: white;
   cursor: pointer;
+  z-index: 4;
 
   @media (max-width: 768px) {
     display: block;
@@ -331,7 +308,7 @@ export const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
-  display: ${({ expanded }) => (expanded ? 'block' : 'none')}; /* Visible solo cuando el menú está abierto */
-  z-index: 2; /* Coloca esta capa detrás del menú pero encima del resto del contenido */
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: ${({ expanded }) => (expanded ? 'block' : 'none')}; 
+  z-index: 2;
 `;
