@@ -13,17 +13,27 @@ I deployment this proyect in Vite.js and use Node.js.
 
 ## Deployment
 
-- [ColorGenerator](https://www.github.com/octokatherine)
+- [ColorGenerator](https://color-generator-lemon-nine.vercel.app/)
 
 
-## &#128640;  Main languages and Framework to development:
+## &#128640;  Main framework to development:
 
 - React.js "^18.2.0"
 - values.js "^2.1.1"
-- styled-components "^6.1.13",
+- styled-components "^6.1.13"
+- react-icons "^5.4.0"
 
 
-## Running project locally:
+### Command to install dependencies:
+
+
+
+```bash
+  npm install
+```
+
+
+### Running project locally:
 
 
 

@@ -1,3 +1,29 @@
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import './App.css';
+import MyNavbar from './components/NavBar/NavBar.jsx';
+import Home from './pages/Home/Home.jsx';
+import ComoUsar from './pages/ComoUsar/ComoUsar.jsx';
+
+function App() {
+  return (
+    <Router>
+      <MyNavbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/como" element={<ComoUsar />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+
+
+
+
 // import { useState, useRef } from 'react';
 // import Values from 'values.js';
 // import './App.css';
@@ -73,25 +99,3 @@
 // }
 
 // export default App;
-
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
-import './App.css';
-import MyNavbar from './components/NavBar/NavBar.jsx';
-import Home from './pages/Home/Home.jsx';
-import ComoUsar from './pages/ComoUsar/ComoUsar.jsx';
-
-function App() {
-  return (
-    <Router>
-      <MyNavbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/como" element={<ComoUsar />} />
-      </Routes>
-    </Router>
-  );
-}
-
-export default App;
-

@@ -1,59 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import { Container, Title, Instructions, InstructionItem, ColorSection, ColorItem, PinColor, PinText } from './StylesComoUsar.js';
-
-// const InstructionsPage = () => {
-//   const [colors, setColors] = useState([]);
-
-//   useEffect(() => {
-//     // Función para obtener los colores desde la API
-//     const fetchColors = async () => {
-//       try {
-//         const response = await fetch('https://www.thecolorapi.com/scheme?hex=007BA7&mode=analogic&count=5');
-//         const data = await response.json();
-//         const colorList = data.colors.map(color => ({
-//           name: color.name.value, // Nombre del color en inglés
-//           hex: color.hex.value,  // Código HEX del color
-//         }));
-//         setColors(colorList);
-//       } catch (error) {
-//         console.error('Error fetching colors:', error);
-//       }
-//     };
-
-//     fetchColors();
-//   }, []);
-
-//   return (
-//     <Container>
-//       <Title>¿Cómo Usar ColorGenerator?</Title>
-//       <Instructions>
-//         <InstructionItem>
-//           <h3>1. Ingresá el nombre de un color en ingés o un código</h3>
-//           <p>ColorGenerator te dará las combinaciones de esa gama de colores.</p>
-//         </InstructionItem>
-//         <InstructionItem>
-//           <h3>2. Copia el código del color de tu preferencia</h3>
-//           <p>Podes copiar el código y usarlo en tus proyectos</p>
-//         </InstructionItem>
-//       </Instructions>
-
-//       <ColorSection>
-//         <h2>Ejemplo:</h2>
-//         {colors.map((color, index) => (
-//           <ColorItem key={index}>
-//             <PinColor color={color.hex} />
-//             <PinText>{color.name}</PinText>
-//           </ColorItem>
-//         ))}
-//       </ColorSection>
-//     </Container>
-//   );
-// };
-
-// export default InstructionsPage;
-
-
-
 
 import React from 'react';
 import { 
@@ -74,7 +18,7 @@ const primaryColors = [
   { name: 'Red', hex: '#FF0000' },
   { name: 'Blue', hex: '#0000FF' },
   { name: 'Yellow', hex: '#FFFF00' },
-  { name: 'Green', hex: '#008000' }, // Agregado por popularidad en diseño
+  { name: 'Green', hex: '#008000' }, 
   { name: 'Orange', hex: '#FFA500' },
   { name: 'Purple', hex: '#800080' },
   { name: 'Black', hex: '#000000' },

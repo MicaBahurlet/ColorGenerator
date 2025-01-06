@@ -58,30 +58,29 @@ export const FooterText = styled.p`
   font-family: 'Montserrat', sans-serif;
 `;
 
-// Estilos responsivos para pantallas pequeñas
 export const MobileFooterContainer = styled(FooterContainer)`
   @media (max-width: 768px) {
-    padding: 15px 20px; /* Reducir padding en pantallas pequeñas */
-    justify-content: center; /* Centrar los elementos en móviles */
+    padding: 15px 20px; 
+    justify-content: center;
     text-align: center;
   }
 `;
 
 export const MobileLogo = styled(Logo)`
   @media (max-width: 768px) {
-    width: 200px; /* Reducir tamaño del logo en pantallas pequeñas */
+    width: 200px; 
   }
 `;
 
 export const MobileFooterLinks = styled(FooterLinks)`
   @media (max-width: 768px) {
-    font-size: 20px; /* Reducir tamaño del icono */
+    font-size: 20px; 
   }
 `;
 
 export const MobileFooterText = styled(FooterText)`
   @media (max-width: 768px) {
-    font-size: 12px; /* Reducir tamaño del texto */
+    font-size: 12px; 
   }
 `;
 
