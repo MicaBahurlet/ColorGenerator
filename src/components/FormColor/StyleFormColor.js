@@ -19,6 +19,13 @@ export const FormWrapper = styled.div`
     width: 100%;
     margin: 0 auto;
     max-width: 1270px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
 `;
 
 export const StyledForm = styled.form`
@@ -65,6 +72,10 @@ export const InputGroup = styled.div`
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 
@@ -103,6 +114,5 @@ export const MessageContainer = styled.div`
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 100%; 
-  height: 1000vh;
 `;
 

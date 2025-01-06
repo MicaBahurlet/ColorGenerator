@@ -334,7 +334,7 @@ const FormColor = ({ setList, onGenerate, setMessage }) => {
       setTimeout(() => {
         setMessage('');
         setList(new Values('#fff').all(5)); 
-      }, 2000);
+      }, 3000);
     }
   };
 
@@ -342,12 +342,12 @@ const FormColor = ({ setList, onGenerate, setMessage }) => {
     setList([]);
     setColor('');
     setPlaceholder('#fff');
-    setMessage('Ingresá un nuevo código o nombre del color en inglés para obtener la nueva gama de colores');
+    setMessage('Ingresá un nuevo código o nombre del color para obtener la nueva gama de colores');
 
     setTimeout(() => {
       setList(new Values('#fff').all(10)); 
       setMessage('');
-    }, 2000);
+    }, 3000);
   };
 
   return (

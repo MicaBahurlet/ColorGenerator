@@ -103,7 +103,7 @@ const InstructionsPage = () => {
         <Instructions>
           <InstructionItem>
             <h3>1. Ingresá el nombre de un color en inglés o un código hexadecimal</h3>
-            <p>ColorGenerator te generará una paletas de colores derivadas del color que hayas seleccionado. La paleta de colores incluye los tonos más claros (tints) y más oscuros (shades).</p>
+            <p> <strong>ColorGenerator</strong> te generará una paletas de colores derivadas del color que hayas seleccionado. La paleta de colores incluye los tonos más claros (tints) y más oscuros (shades).</p>
           </InstructionItem>
           <InstructionItem>
             <h3>2. Copia el código del color de tu preferencia</h3>
@@ -125,7 +125,7 @@ const InstructionsPage = () => {
         </ColorSection>
 
         <ColorSection>
-          <h2>Tonalidades pastel de los colore primarios:</h2>
+          <h2>Tonalidades pastel de los colores primarios:</h2>
           <p>*Podrás buscarlos con el código hexadecimal*</p>
           <ColorGrid>
             {pastelColors.map((color, index) => (
