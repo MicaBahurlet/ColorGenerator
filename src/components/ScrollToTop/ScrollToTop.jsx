@@ -7,7 +7,7 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Muestra el botón solo si el usuario llega al final del DisplayColors
+
       if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
         setShowButton(true);
       } else {
