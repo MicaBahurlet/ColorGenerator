@@ -39,7 +39,7 @@ export const StyledInput = styled.input`
     flex: 1;
     padding: 0.75rem 1rem;
     font-size: 1rem;
-    border: 2px solid #008080;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: #f4ffff;
     color: #004d4d;
@@ -55,7 +55,7 @@ export const StyledButton = styled.button`
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
-    background-color: #008080;
+    background-color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -91,9 +91,9 @@ export const ClearButton = styled.button`
     padding: 0.75rem 1rem;
     font-size: 1rem;
     font-weight: bold;
-    color: #008080; 
+    color: black; 
     background-color: transparent;
-    border: 2px solid #008080; 
+    border: 2px solid black; 
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;

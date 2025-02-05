@@ -13,6 +13,7 @@ import {
 } from './StylesComoUsar.js';
 
 import Footer from '../../components/Footer/Footer.jsx';
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop.jsx';
 
 const primaryColors = [
   { name: 'Red', hex: '#FF0000' },
@@ -102,6 +103,7 @@ const InstructionsPage = () => {
                   ))}
               </ColorGrid>
           </ColorSection>
+          <ScrollToTop />
 
         
       </Container>

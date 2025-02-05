@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai'; 
 
 export const CustomNavbar = styled.nav`
-  background-color: #008080; 
+  background-color: black; 
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;

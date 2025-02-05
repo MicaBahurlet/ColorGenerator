@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #008080;
+  background-color: black;
   /* padding: 20px 40px; */
   /* position: relative; */
   bottom: 0;
